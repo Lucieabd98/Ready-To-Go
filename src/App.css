@@ -1,0 +1,117 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+p {
+  font-size: 20px;
+}
+
+header {
+  height: 145px;
+  display: flex;
+  align-items: center;
+  padding: 10px 70px;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+main {
+  height: 600px;
+  /* border: green solid 5px; */
+  display: flex;
+}
+
+.container {
+  margin: 20px auto;
+  width: 1000px;
+}
+
+main.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.allButtons > div {
+  display: flex;
+  gap: 30px;
+}
+
+.allButtons > div:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.allButtons button {
+  width: 120px;
+  height: 70px;
+  border: #908f8f 1px solid;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.mainButton button {
+  width: 120px;
+  height: 70px;
+  border: #908f8f 1px solid;
+  background-color: white;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button.purple {
+  background-color: #5c48d3;
+  color: white;
+}
+
+button.white {
+  color: #5c48d3;
+}
+
+button.red {
+  background-color: #d34848;
+}
+
+button.green {
+  background-color: #46ac4a;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.resetButton button {
+  width: 120px;
+  height: 70px;
+  border: #908f8f 1px solid;
+  background-color: white;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: white;
+}
